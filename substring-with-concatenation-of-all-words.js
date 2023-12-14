@@ -1,8 +1,4 @@
-/**
- * @param {string} s
-  * @param {string[]} words
-   * @return {number[]}
-    */
+
 var findSubstring = function (s, words) {
     let wordLen = words[0].length
     let totalWords = words.length
