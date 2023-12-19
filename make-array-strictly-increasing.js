@@ -10,8 +10,6 @@ function minOperationsToMakeIncreasing(arr1, arr2) {
 …            prevMinOps = Math.min(prevMinOps, dp[i - 1][j]);
         }
     }
-
     const result = Math.min(...dp[n - 1]);
-
     return result === Number.MAX_SAFE_INTEGER ? -1 : result;
 }
